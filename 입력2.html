@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>다양한 입력 받기</title>
+</head>
+<body>
+  <h1>좋아하는 영화 장르 고르기</h1> <!-- 하나 선택 가능 -->
+  <select name="genre">
+    <option value="comedy">코미디</option>
+    <option value="romance">로멘스</option>
+    <option value="horror">공포</option>
+    <option value="docu">다큐</option>
+  </select>
+  <br><br>
+  <h1>좋아하는 게임 장르 고르기</h1>
+  <select name="genre" multiple>  <!-- 복수 선택이 가능 (ctrl) -->
+    <option value="fps" selected>총</option>  <!-- 기본 선택지 -->
+    <option value="rpg">롤플레잉</option>
+    <option value="horror">공포</option>
+    <option value="story">스토리</option>
+  </select>
+  <br><br>
+
+  <textarea name="content"
+  rows="10" cols="10">안녕하세요. </textarea>  <!-- 내용 쓰기 전 입력되어 있을 텍스트 -->
+  <!-- rows : 몇 행으로 할건인지  /  cols : 가로 넓이 -->
+</body>
+</html>
