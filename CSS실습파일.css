@@ -1,0 +1,27 @@
+p{    /* 태그를 선택 */
+  background-color: blanchedalmond;
+}
+#rei{   /* id 명으로 선택 */
+  background-color: aqua;
+}
+
+.color-primary{     /* .클래스 명으로 선택 */
+  color: rgb(59, 72, 218);
+}
+
+.font-50{
+  font-size: 50px;
+}
+.select-style{
+  color: purple;
+}
+.tcolor > thead > tr > td {   /* 경로를 맞춰줘서 해당 태그에만 적용 가능 */
+  border: 1px solid #000;  /* 테두리를 1px 크기만큼, 검정색으로 */
+  font-size: 14px;
+  font-weight: bold;
+  color:red;
+}
+
+.tb td{   /* 이 경로(tb) 밑의 td 태그들은 다 이 스타일 적용하기  */
+  border: 2px solid #000;
+}
